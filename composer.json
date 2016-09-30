@@ -1,0 +1,29 @@
+{
+    "name": "ameos/ameos_quickcontent",
+    "description": "Add toolbar for content insertion.",
+    "type": "typo3-cms-extension",
+    "homepage": "https://github.com/ameos/ameos_form",
+    "version": "1.3.3",
+    "require": {
+        "typo3/cms": ">=7.6.0,<7.6.99",
+        "gridelementsteam/gridelements": ""
+    },
+    "keywords": [
+        "TYPO3",
+        "CMS"
+    ],
+    "license": "GPL 2",
+    "authors": [
+        {
+            "name": "Ameos Team",
+            "email": "typo3dev@ameos.com",
+            "homepage": "http://www.ameos.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ameos\\AmeosQuickcontent\\": "Classes"
+        }
+    }
+}
+
